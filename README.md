@@ -9,7 +9,7 @@
 
 **文件名：** `Apple-US.list`  
 **托管地址：**  
-👉 [https://raw.githubusercontent.com/xpdigital/Apple-Rule/main/Apple-US.list](https://raw.githubusercontent.com/xpdigital/Apple-Rule/main/Apple-US.list)
+👉 [https://raw.githubusercontent.com/xpdigital/Apple-Rule/main/Apple-US.list](https://raw.githubusercontent.com/xpdigital/Apple-Rule/main/Apple-Ai.list)
 
 ---
 
