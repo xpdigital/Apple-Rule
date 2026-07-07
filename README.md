@@ -26,5 +26,5 @@ FINAL,Proxy
 Apple-US = 
   type = http,
   behavior = classical,
-  url = https://raw.githubusercontent.com/xpdigital/Apple-Rule/main/Apple-US.list,
+  url = [https://raw.githubusercontent.com/xpdigital/Apple-Rule/main/Apple-US.list](https://raw.githubusercontent.com/xpdigital/Apple-Rule/refs/heads/main/Apple-AI.list),
   interval = 86400
