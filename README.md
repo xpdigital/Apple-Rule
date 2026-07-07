@@ -9,7 +9,7 @@
 **托管地址：**
 
 ```text
-https://raw.githubusercontent.com/xpdigital/Apple-Rule/refs/heads/main/Apple-AI.list
+https://raw.githubusercontent.com/xpdigital/Apple-Rule/main/Apple-AI.list
 ```
 
 规则内容使用 Surge `RULE-SET` 支持的 classical 规则格式。规则集文件内每一行只包含匹配规则，例如：
@@ -33,7 +33,7 @@ DOMAIN-SUFFIX,smoot.apple.com
 在 Surge 配置文件的 `[Rule]` 段加入下面这一行，并放在 `GEOIP`、`FINAL` 等兜底规则之前：
 
 ```ini
-RULE-SET,https://raw.githubusercontent.com/xpdigital/Apple-Rule/refs/heads/main/Apple-AI.list,美国节点,no-resolve
+RULE-SET,https://raw.githubusercontent.com/xpdigital/Apple-Rule/main/Apple-AI.list,美国节点,no-resolve
 ```
 
 其中 `美国节点` 需要替换成你自己 Surge 配置里的代理策略组名称，例如 `Proxy`、`US`、`United States` 等。
@@ -45,7 +45,7 @@ RULE-SET,https://raw.githubusercontent.com/xpdigital/Apple-Rule/refs/heads/main/
 美国节点 = select, US-01, US-02, US-03
 
 [Rule]
-RULE-SET,https://raw.githubusercontent.com/xpdigital/Apple-Rule/refs/heads/main/Apple-AI.list,美国节点,no-resolve
+RULE-SET,https://raw.githubusercontent.com/xpdigital/Apple-Rule/main/Apple-AI.list,美国节点,no-resolve
 GEOIP,CN,DIRECT
 FINAL,Proxy
 ```
